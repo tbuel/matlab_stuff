@@ -8,7 +8,7 @@ function [varargout] = mup_speed_convert(data,fs,DiaW,Nteeth,Threshold)
 % Threshold = threshold for checking input signal, mV (default: 1% of Max)
 % 
 % Speed = mup_speed_convert(data,fs,DiaW,Nteeth,Threshold)
-% 'Speed' is the wheel's speed in mph
+% 'Speed' is the wheel's speed in mph, with dt = 1s
 %
 % mup_speed_convert(data,fs,DiaW,Nteeth,Threshold)
 % by itself will plot all channels...
